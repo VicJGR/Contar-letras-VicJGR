@@ -6,6 +6,4 @@ function cuantasVecesAparece(cadena, caracter){
       return indices.length;
   }
   
-  var coincidencias = cuantasVecesAparece("Cuantas 'A' aparecen en esta cadena.", "a")
-  
-  console.log(coincidencias)
+  module.exports = contarLetras
